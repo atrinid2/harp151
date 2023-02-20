@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- how to do forms learned from https://web.dev/learn/forms/form-element/ -->
+<!--"animate" styling element learned here https://www.educba.com/css-blinking-text/-->
+<!--gradient and shadow text is from here https://www.w3schools.com/css/css3_gradients.asp-->
+<!--the three new styling elements I used was animation, text-shadow, linear-gradient-->
+<html>
+<head>
+    <style>
+        #titles {
+            animation: animate 1.5s linear infinite;
+            font-size: 20px;
+        }
+        @keyframes animate{
+            0%{   color: red;   }
+            47%{   color: #5900ff; }
+            62%{   color: chartreuse; }
+            97%{   color: deeppink;}
+            100%{  color: #ddff00;   }
+        }
+    </style>
+    <title>Meet My New Cat</title>
+    <link rel="stylesheet" type="text/css" href="trinidad_ani_lab_3.css"/>
+</head>
+<body>
+    <img src="https://media.discordapp.net/attachments/986828831262375996/1074742862467579944/6C4FFEA4-2786-49FD-8D72-69B3BE6E76C4.jpg?width=494&height=658" alt="el_gato" style="width:300px; height: 450px;">
+    <h1><div id="titles">Meet My ESA</div></h1>
+    <hr>
+    <p> <div class="mainbody"> This is my new cat. I got her at a shelter called <a href="https://ny-petrescue.org/Adopt-Cats">petRescue</a> after my diagnosis of Major Depressive Disorder to help me throughout the day!<br> She's super sweet, loves butt scratches, and kinda looks like a Tim Burton character. The only issue is, she doesn't have a name!</p><br></div></p>
+    <iframe src="https://discord.com/channels/@me/724699284532101140/1074878886225121291" title="petfinder profile"></iframe>
+    <p>Here she is when we adopted her!</p>
+    <hr>
+    <h2>So, <div id="titles">will you help me find her a name?</div> </h2>
+    
+</body> 
+<div class="box1" > 
+        <p1>Here are some potential names for the cat:</p1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Potential Name</th>
+                    <th>Why this name is good</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Glory</td>
+                    <td>It's her shelter name!</td>
+                </tr>
+                <tr>
+                    <td>Doxy</td>
+                    <td>Short for Deoxyribonucleic acid, it fits with the biology theme of my cats</td>
+                </tr>
+                <tr>
+                    <td>Sera</td>
+                    <td>Short for Seratonin, makes sense because my other cat's name is Dopey for Dopamine.</td>
+                </tr>
+            </tbody>
+        </table>
+    <form>
+    <div class="submit">
+        <label for="naming">Give me name suggestions here!</label>
+        <input type="text" id="naming" name="naming">
+        <button>Submit</button>
+    </div>
+    </form>
+</div> 
+</body>
+<hr>
+<div class="box1">
+<h1><div class="shadowtext">UPDATE:</div></h1>
+<p>So, I've offically had my ESA for a whole week. I've learned a lot more about her.</p>
+<p>She wants to eat absolutely everything. Like she will dig out wrappers just to lick them clean. I've had to buy lids for all my trash cans. </p>
+<p>When she gets more comfortable, she likes to be vocal. She didn't meow at all at first, even when we drove her up to Binghamton, but now she meows and chirps for anything.</p>
+<p>She's a cuddly cat. She loves sleeping on my bed with me, which makes me so so happy. She slept on my back the other day.</p>
+<h3><div class="shadowtext">Overall, she's been great so far! Can't wait to spend the rest of the semester with her!</div></h3>
+</div>
+</html>
